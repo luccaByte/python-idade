@@ -2,7 +2,7 @@ def niver():
   while True:
     try:
       ano = int(input("Digite sua data de nascimento entre 1922 e 2021: "))
-      if (ano <= 1922) or (ano <= 2021):
+      if 1922 <= ano <= 2021:
         return ano
       else:
         print(
