@@ -19,5 +19,5 @@ nascimento = niver()
 hoje = 2022
 idade = hoje - nascimento
 
-print("Olá", nome)
+print("Olá, ", nome)
 print("Sua idade é: ", idade)
